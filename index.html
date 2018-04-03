@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Political representative component -->
+    <article id="repbio" class="representative">
+        <!-- Basic candidate info component -->
+        <section class="representative__info">
+            <!-- Candidate image component -->
+            <img class="image repImage" src="https://www.govtrack.us/data/photos/400081-100px.jpeg">
+            <!-- Candidate name component -->
+            <h3 class="name repName">Jim Cooper</h3>
+                <!-- District info -->
+            <p>
+                Representative for Tennessee's 5th congressional district
+            </p>
+                <!-- Political affiliation -->
+            <p id="lastgraf">
+                Party affiliation: Democrat
+            </p>
+        </section>
+        <!-- Committes section -->
+        <section>
+            <!-- Committes list title -->
+            <h3>
+                Committes
+            </h3>
+            <!-- Committes unordered list -->
+            <ul id="committe_list">
+                <li>Committee on Armed Services</li>
+                <li>Committee on Oversight and Government Reform</li>
+            </ul>
+        </section>
+        <!-- Current legislation section -->
+        <section>
+            <!-- Current legislation list title -->
+            <h3>
+                Currently sponsored legislation:
+            </h3>
+            <!-- Unordered current legislation list -->
+            <ul>
+                <li>
+                    <a href="https://www.congress.gov/bill/115th-congress/house-bill/5369?q=%7B%22search%22%3A%5B%22cooper%22%5D%7D">Earmark Elimination Act of 2018</a>
+                </li>
+                <li>
+                    <a href="https://www.congress.gov/bill/115th-congress/house-bill/3675?q=%7B%22search%22%3A%5B%22cooper%22%5D%7D">Stop Pay for Members Act</a>
+                </li>
+                <li>
+                    <a href="https://www.congress.gov/bill/115th-congress/house-bill/1779?q=%7B%22search%22%3A%5B%22cooper%22%5D%7D">No Budget, No Pay Act</a>
+                </li>
+            </ul>
+        </section>
+    </article>
+    <script src="govtrack.js"></script>
+</body>
+</html>
